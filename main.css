@@ -1,0 +1,106 @@
+body{
+    padding: 10px;
+    font-family: Georgia;  
+}
+
+a{
+    text-decoration: none;
+}
+
+
+#menu{
+    list-style: none;    
+    float: right;
+    padding-top: 5px;
+    padding-right: 5px;
+    margin-bottom: 5px;
+}
+#menu li{
+    padding-left: 15px;
+}
+#menu a:link,:visited{
+    color: grey;   
+    text-decoration: none;
+}
+h1,ul,li{
+    display: inline;
+}
+h1{
+    color: grey;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 23px;
+    padding-left: 5px;
+}
+.post{
+    padding-top: 15px;
+    border-top: 1.4px solid rgba(1, 1, 1, 0.2);
+    border-bottom: 1.4px solid rgba(1, 1, 1, 0.2);
+    display: flex;
+    width: 100%; 
+    padding-bottom: 15px;
+}
+.body{
+    flex-basis: 77%;
+    padding-left: 23px;
+    color: grey;
+    line-height: 1.7;
+    font-size: 13.5px;
+
+}
+
+.details h2 a{
+    color: crimson;
+    font-size: 32px;
+    font-weight: normal;
+}
+.details p{
+    color: grey;
+    font-size: 11.5px;;
+}
+.details p a{
+    color: grey;
+    font-weight: bold;
+    border-bottom: 1px dotted grey;
+}
+.details
+{
+    border-right: 1.4px solid rgba(1, 1, 1, 0.2); 
+    flex-grow: 23%;
+}
+.col{
+    flex-basis: 30%;
+}
+.columns{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1.4px solid rgba(1, 1, 1, 0.2); 
+}
+.col h3 a{
+    font-family: serif;
+    font-size: 22px;
+    text-decoration: blanchedalmond;
+    color: black;
+    font-weight: bolder;
+}
+.col p{
+    color: grey;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.col .det a{
+  text-decoration: none;  
+  color: crimson;
+} 
+#footer {
+    font-size: 14px;
+    color: grey;
+    padding-top: 12px;
+}
+#footer a{
+    color: crimson;
+}
+a:link:hover,a:visited:hover{
+    color: blueviolet;
+}
